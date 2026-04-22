@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-#sample matchup using nested for loop
+#matchups using nested for loops
 
 players = ["Alice", "Bob", "Charlie"]
 
@@ -9,9 +9,7 @@ for person in players:
         if person != player:
             print(f'{person} vs {player}')
 
-
-'''Sample output:
-Alice vs Bob
+'''Alice vs Bob
 Alice vs Charlie
 Bob vs Alice
 Bob vs Charlie
