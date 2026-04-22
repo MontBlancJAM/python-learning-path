@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 #sample barista
 
 print('Welcome to the Coffee Shop!')

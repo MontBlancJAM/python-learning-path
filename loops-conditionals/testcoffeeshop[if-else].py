@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 #sample barista
 
 menu = 'Black Coffee, Espresso, Latte, Cappucino'
@@ -21,8 +23,4 @@ total = price * int(quantity)
 print("Thank you " + name + ', your total is:$' + str(total))
 print("Sounds good " + name + ", we'll have your " + quantity + ' ' + order + ' ready for you in a moment.')
 
-if 4 > 3:
-    print("Yep, it's true")
-    print("It's still true")
-else:
-    print("Nope, not true")
+
